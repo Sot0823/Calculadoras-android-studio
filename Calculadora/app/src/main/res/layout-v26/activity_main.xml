@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="384dp"
+        android:layout_height="514dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/bt0"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="bt0"
+            android:text="@string/_0"
+            app:layout_column="0"
+            app:layout_row="6" />
+
+        <Button
+            android:id="@+id/btigual"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="igual"
+            android:text="@string/igual"
+            app:layout_column="1"
+            app:layout_row="6" />
+
+        <Button
+            android:id="@+id/btmultiplicar"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="multiplicacion"
+            android:text="@string/multiplicar"
+            app:layout_column="2"
+            app:layout_row="6" />
+
+        <Button
+            android:id="@+id/btdividir"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:text="@string/dividir"
+            app:layout_column="3"
+            app:layout_row="6" />
+
+        <Button
+            android:id="@+id/btresta"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="resta"
+            android:text="@string/resta"
+            app:layout_column="3"
+            app:layout_row="5" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="bt1"
+            android:text="@string/_1"
+            app:layout_column="2"
+            app:layout_row="5" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="bt2"
+            android:text="@string/_2"
+            app:layout_column="1"
+            app:layout_row="5" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="bt3"
+            android:text="@string/_3"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="bt6"
+            android:text="@string/_6"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="bt5"
+            android:text="@string/_5"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="bt4"
+            android:text="@string/_4"
+            app:layout_column="2"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/btsumar"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="suma"
+            android:text="@string/suma"
+            app:layout_column="3"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="bt7"
+            android:text="@string/_7"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="bt8"
+            android:text="@string/_8"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/bt9"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="bt9"
+            android:text="@string/_9"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/btdel"
+            android:layout_width="96dp"
+            android:layout_height="92.3dp"
+            android:onClick="borrar"
+            android:text="@string/del"
+            app:layout_column="3"
+            app:layout_row="3" />
+
+        <EditText
+            android:id="@+id/caja"
+            android:layout_width="89dp"
+            android:layout_height="142dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="none|number"
+            android:text=""
+            android:visibility="visible"
+            app:layout_column="0"
+            app:layout_columnSpan="4"
+            app:layout_gravity="fill"
+
+
+            app:layout_row="0"
+            app:layout_rowSpan="2"
+            tools:ignore="LabelFor" />
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>
